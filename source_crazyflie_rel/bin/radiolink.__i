@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM3 -I.\lib\CMSIS\Core\CM3 -I.\lib\STM32F10x_StdPeriph_Driver\inc -I.\modules\interface -I.\config -I.\hal\interface -I..\uart -I.\utils\interface -I.\drivers\interface -I.\lib\CMSIS\Core\CM3\startup\arm --c99 
+-I "D:\keil mdk4.6\ARM\RV31\INC" 
+-I "D:\keil mdk4.6\ARM\CMSIS\Include" 
+-I "D:\keil mdk4.6\ARM\Inc\ST\STM32F10x" 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\bin\radiolink.o" --omf_browse ".\bin\radiolink.crf" --depend ".\bin\radiolink.d" "hal\src\radiolink.c"

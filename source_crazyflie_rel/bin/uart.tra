@@ -1,0 +1,81 @@
+*** Creating Trace Output File '.\bin\uart.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\bin\main.o"'
+### List of Objects: adding '".\bin\misc.o"'
+### List of Objects: adding '".\bin\stm32f10x_gpio.o"'
+### List of Objects: adding '".\bin\stm32f10x_rcc.o"'
+### List of Objects: adding '".\bin\stm32f10x_usart.o"'
+### List of Objects: adding '".\bin\stm32f10x_dma.o"'
+### List of Objects: adding '".\bin\stm32f10x_spi.o"'
+### List of Objects: adding '".\bin\stm32f10x_exti.o"'
+### List of Objects: adding '".\bin\stm32f10x_adc.o"'
+### List of Objects: adding '".\bin\stm32f10x_dbgmcu.o"'
+### List of Objects: adding '".\bin\stm32f10x_flash.o"'
+### List of Objects: adding '".\bin\stm32f10x_i2c.o"'
+### List of Objects: adding '".\bin\stm32f10x_iwdg.o"'
+### List of Objects: adding '".\bin\stm32f10x_tim.o"'
+### List of Objects: adding '".\bin\exti.o"'
+### List of Objects: adding '".\bin\nrf24l01.o"'
+### List of Objects: adding '".\bin\motors.o"'
+### List of Objects: adding '".\bin\led.o"'
+### List of Objects: adding '".\bin\i2cdev.o"'
+### List of Objects: adding '".\bin\i2croutines.o"'
+### List of Objects: adding '".\bin\mpu6050.o"'
+### List of Objects: adding '".\bin\ms5611.o"'
+### List of Objects: adding '".\bin\hmc5883l.o"'
+### List of Objects: adding '".\bin\adc.o"'
+### List of Objects: adding '".\bin\nvic.o"'
+### List of Objects: adding '".\bin\crtp.o"'
+### List of Objects: adding '".\bin\console.o"'
+### List of Objects: adding '".\bin\crtpservice.o"'
+### List of Objects: adding '".\bin\commander.o"'
+### List of Objects: adding '".\bin\param.o"'
+### List of Objects: adding '".\bin\sensfusion6.o"'
+### List of Objects: adding '".\bin\controller.o"'
+### List of Objects: adding '".\bin\pid.o"'
+### List of Objects: adding '".\bin\log.o"'
+### List of Objects: adding '".\bin\worker.o"'
+### List of Objects: adding '".\bin\system.o"'
+### List of Objects: adding '".\bin\comm.o"'
+### List of Objects: adding '".\bin\stabilizer.o"'
+### List of Objects: adding '".\bin\pidctrl.o"'
+### List of Objects: adding '".\bin\configblock.o"'
+### List of Objects: adding '".\bin\cpuid.o"'
+### List of Objects: adding '".\bin\crc.o"'
+### List of Objects: adding '".\bin\debug.o"'
+### List of Objects: adding '".\bin\eprintf.o"'
+### List of Objects: adding '".\bin\filter.o"'
+### List of Objects: adding '".\bin\fp16.o"'
+### List of Objects: adding '".\bin\cfassert.o"'
+### List of Objects: adding '".\bin\uart.o"'
+### List of Objects: adding '".\bin\freertosdebug.o"'
+### List of Objects: adding '".\bin\ledseq.o"'
+### List of Objects: adding '".\bin\imu.o"'
+### List of Objects: adding '".\bin\pm.o"'
+### List of Objects: adding '".\bin\radiolink.o"'
+### List of Objects: adding '".\bin\startup_stm32f10x_md.o"'
+### List of Objects: adding '".\bin\list.o"'
+### List of Objects: adding '".\bin\queue.o"'
+### List of Objects: adding '".\bin\tasks.o"'
+### List of Objects: adding '".\bin\timers.o"'
+### List of Objects: adding '".\bin\heap_4.o"'
+### List of Objects: adding '".\bin\port.o"'
+### List of Objects: adding '".\bin\core_cm3.o"'
+### List of Objects: adding '".\bin\system_stm32f10x.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\bin\main.o" ".\bin\misc.o" ".\bin\stm32f10x_gpio.o" ".\bin\stm32f10x_rcc.o" ".\bin\stm32f10x_usart.o" ".\bin\stm32f10x_dma.o" ".\bin\stm32f10x_spi.o" ".\bin\stm32f10x_exti.o" ".\bin\stm32f10x_adc.o" ".\bin\stm32f10x_dbgmcu.o" ".\bin\stm32f10x_flash.o" ".\bin\stm32f10x_i2c.o" ".\bin\stm32f10x_iwdg.o" ".\bin\stm32f10x_tim.o" ".\bin\exti.o" ".\bin\nrf24l01.o" ".\bin\motors.o" ".\bin\led.o" ".\bin\i2cdev.o" ".\bin\i2croutines.o" ".\bin\mpu6050.o" ".\bin\ms5611.o" ".\bin\hmc5883l.o" ".\bin\adc.o" ".\bin\nvic.o" ".\bin\crtp.o" ".\bin\console.o" ".\bin\crtpservice.o" ".\bin\commander.o" ".\bin\param.o" ".\bin\sensfusion6.o" ".\bin\controller.o" ".\bin\pid.o" ".\bin\log.o" ".\bin\worker.o" ".\bin\system.o" ".\bin\comm.o" ".\bin\stabilizer.o" ".\bin\pidctrl.o" ".\bin\configblock.o" ".\bin\cpuid.o" ".\bin\crc.o" ".\bin\debug.o" ".\bin\eprintf.o" ".\bin\filter.o" ".\bin\fp16.o" ".\bin\cfassert.o" ".\bin\uart.o" ".\bin\freertosdebug.o" ".\bin\ledseq.o" ".\bin\imu.o" ".\bin\pm.o" ".\bin\radiolink.o" ".\bin\startup_stm32f10x_md.o" ".\bin\list.o" ".\bin\queue.o" ".\bin\tasks.o" ".\bin\timers.o" ".\bin\heap_4.o" ".\bin\port.o" ".\bin\core_cm3.o" ".\bin\system_stm32f10x.o" 
+--strict --scatter ".\bin\uart.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\bin\listing\uart.map" -o .\bin\uart.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\bin\uart.axf'
+### ADS-LD Command File: '.\bin\uart.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\bin\uart.lnp', Handle=0x000004D0
+### Writing '.lnp' file
+### ADS-LD Command file '.\bin\uart.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 48 errors
+### Updating obj list
+### LDADS_file() completed.
